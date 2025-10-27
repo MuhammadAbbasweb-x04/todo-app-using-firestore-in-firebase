@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>todo app using firestore in firebase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="app-container">
+   
+    <form id="form">
+      <div class="heading">📝 Add New Todo</div>
+      <input type="text" placeholder="Enter title :" id="title">
+      <textarea placeholder="Enter description :" id="description"></textarea>
+      <button type="submit" id="submit-btn">Add Todo</button>
+    </form>
+
+    <div class="todo-container">
+      <div class="todo-header">
+        <button class="edit">✏️ Edit</button>
+        <button class="delete">🗑️ Delete</button>
+      </div>
+      <div class="todo-title">Learn Firebase CRUD</div>
+      <div class="todo-description">
+        Practice Create, Read, Update, and Delete operations with Firestore to
+        build a beautiful and modern To-Do app UI.
+      </div>
+    </div>
+  </div>
+
+
+<script  type="module" src="app.js"></script>  
+</body>
+</html>
