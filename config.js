@@ -1,5 +1,5 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
- import { getFirestore } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+ import { getFirestore } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-firestore.js";
   const firebaseConfig = {
     apiKey: "AIzaSyC6LVKF-E3-v3EfqlyvbExnSQ9jL9cRb10",
     authDomain: "facebook-authentication-741ad.firebaseapp.com",
@@ -10,6 +10,5 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebas
     measurementId: "G-0ENNEY6HBD"
   };
 
-  
   const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
+export  const db = getFirestore(app);
